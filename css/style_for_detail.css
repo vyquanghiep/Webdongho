@@ -1,0 +1,132 @@
+.dieu-huong{
+	float: left;
+	width: 100%;
+}
+.dieu-huong a{
+	line-height: 50px;
+	padding: 10px;
+	color: #222;
+	border-bottom: 3px solid #f5f5f5;
+	font-size: 14px;
+	font-weight: bold;
+	box-sizing: border-box;
+	animation: .3s ease;
+}
+.dieu-huong a:hover{
+	border-bottom: 3px solid #396;
+	color: #396;
+}
+.detail-product{
+	width: 100%;
+	background: #fff;
+	float: left;
+}
+.detail-product img{
+	float: left;
+	width: 40%;
+	box-sizing: border-box;
+}
+.detail-product .info-laptop{
+	padding-top: 60px;
+	float: left;
+	width: 60%;
+	box-sizing: border-box;
+	padding-left: 5px;
+	font-weight: bold;
+}
+.info-laptop li{
+	line-height: 15px;
+	font-size: 16px;
+	font-weight: normal;
+}
+.detail1 {
+	width: 50%;
+	float: left;
+	display: inline-block;
+}
+.detail2{
+	padding-top: 40px;
+	float: left;
+	text-align: left;
+	width: 50%;
+}
+input{
+	font-family: UTM Neo Sans Intel Regular;
+}
+.form-order{
+	font-size: 13px;
+	font-weight: bold;
+	display: block;
+	float: left;
+	width: 58%;
+	box-sizing: border-box;
+}
+.form-order span{
+	font-size: 14px;
+	color: red;
+	font-weight: bold;
+	text-transform: uppercase !important;
+}
+#thanhtien{
+	width: 200px !important;
+	border: none;
+	background: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	color: green;
+	text-align: center;
+	margin-left: 50px;
+	border-bottom: 2px solid green;
+}
+.gioithieu{
+	float: left;
+	font-size: 15px;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	text-align: justify;
+}
+.submit{
+	background: white;
+	color: green;
+	border: 2px solid green;
+	padding: 10px 25px;
+	outline: none;
+	border-radius: 4px;
+	text-transform: uppercase;
+	font-weight: bold;
+	animation: .3s ease;
+	cursor: pointer;	
+}
+.submit:hover{
+	background: green;
+	color: #fff;
+	box-shadow: 2px 3px 4px rgba(30,160,60,0.3);
+}
+.number{
+	width: 100px !important;
+	text-align: center;
+	border: none;
+	outline: none;
+	height: 50	px;
+	text-align: center;
+	font-weight: bold;
+	color: green;
+	border:1px solid #999;	
+}
+.minus, .plus{
+	height: 25px !important;
+	width: 50px;
+	border: none;
+	border:1px solid #999;
+}
+.minus{
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px; 
+	background: url('../images/icons8-minus-25.png') no-repeat center center green;
+}
+.plus{
+	border-top-right-radius:3px;
+	border-bottom-right-radius:3px; 
+	background: url('../images/icons8-plus-25.png') no-repeat center center green;
+}

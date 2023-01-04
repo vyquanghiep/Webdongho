@@ -1,0 +1,40 @@
+main{
+	width: 90%;
+	margin: 0 auto;
+	clear: both;
+}
+.user-info{
+	width: 100%;
+		border-radius: 20px;
+	box-shadow: 2px 9px 12px rgba(0,0,0,0.1);
+	background: #fff;
+}
+.user-info h2{
+	width: 100%;
+	line-height: 50px;
+	background: green;	
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+}
+.empty-cart{
+	width: 100%;
+	height: 300px;
+	background: #fff;
+}
+.coll{
+	width: 20%;
+	float: left;
+	background: #fff;
+}
+.colr{
+	margin: 50px;
+	float: right;
+	width: 79%;
+	background: #fff;
+}
+.wrap-danhmuc{
+	float: left;
+	width: 100%;
+}
+

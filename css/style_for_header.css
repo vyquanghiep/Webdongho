@@ -1,0 +1,141 @@
+* { margin: 0; padding: 0; list-style: none; box-sizing: border-box !important;
+	font-family: UTM Neo Sans Intel Regular;}
+	body { 
+		font: 70%  UTM Neo Sans Intel Regular, Arial, Helvetica, sans-serif;
+		background: #f4f4f4;
+		width: 100%;
+		background: #f5f5f5;
+	}
+	a{
+		text-decoration: none;
+	}
+	.top{
+		width: 100%;
+		background: #222;float: left;
+	}
+	.info{
+		width: 50%;
+		box-sizing: border-box;
+		float: left;
+	}
+	.login{
+		width: 18%;
+		box-sizing: border-box;
+		float: right;
+	}
+	.top a{
+		text-transform: uppercase;
+		color: #ddd !important;
+		line-height: 40px;
+		font-weight: bold;
+		font-size: 10px;
+		margin: 0 5px;
+		padding:5px 0 5px 30px;
+		border-bottom: 2px solid #222;
+	}
+	.top a:hover{
+		color: yellow !important;
+	}
+	#email {
+		text-transform: none !important;
+		background: url('../images/icons8-important-mail-24.png') no-repeat left center;
+	}
+	#phone {
+		background: url('../images/icons8-phone-24.png') no-repeat left center;
+	}
+	#login{
+		background: url('../images/icons8-enter-24.png') no-repeat left center;
+	}
+	#register{
+		background: url('../images/icons8-user-male-24.png') no-repeat left center;
+	}
+	.header{
+		width: 100%;
+		background: #fff;
+		box-shadow: 0px 2px 9px 2px rgba(0,0,0,0.1);
+		float: left;
+		margin-bottom: 30px;
+	}
+	.logo{
+		width: 40%;
+		float: left;
+		padding: 0px 25px;
+		box-sizing: border-box;
+	}
+	#logo-img{
+		margin-left: 20px !important;
+	}
+	.nav {
+		width: 60%;
+		float: left;
+	}
+	.cart{
+		background: url('../images/shopping.png') no-repeat left center;
+		text-transform: unset !important;
+		margin-left: 100px;
+		padding-left: 60px !important;
+	}
+	.header .nav a{
+		float: left;
+		display: inline-block;
+		text-transform: uppercase;
+		line-height: 115px;	
+		color: #111;
+		font-weight: bold;
+		font-size: 15px;
+		padding: 0px 25px;
+		border-bottom: 5px solid #fff;
+		transition: .3s ease;
+	}
+	.nav a:hover{
+		border-bottom: 5px solid #396;
+		color: #396 !important;
+	}
+
+	.dropdown {
+		position: relative;
+		display: inline-block;
+	}
+
+	.dropdown-content {
+		display: none;
+		position: absolute;
+		background-color: #ffff;
+		min-width: 160px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		padding: 12px 16px;
+		z-index: 5;
+		top: 100px;
+		border: 1px solid #999;
+		right: 0;
+		animation: 1s ease;
+	}
+
+	.dropdown-content b{
+		font-size: 15px;
+		color: #222;
+		color: orange;
+	}
+
+	.dropdown:hover .dropdown-content {
+		display: block;
+	}
+
+	.cart-item{
+		float: left;
+		width: 100%;
+		border-bottom: 1px dashed #396;
+		margin-bottom: 4px;
+	}
+
+	.cart-item span{
+		margin-top: 10px;
+		float: left;
+		width: 40%;
+		color: green;
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+
+
